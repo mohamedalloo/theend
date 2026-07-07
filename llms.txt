@@ -1,0 +1,25 @@
+# theend.ai
+
+> theend.ai preserves the life stories of aging parents. A warm AI interviewer phone-calls a parent or grandparent once a week, asks about their life with genuine follow-up questions, and records the conversation with their consent. A year of calls becomes a hardcover keepsake book edited from the storyteller's own words, plus a lifetime archive of their real voice — every passage in the book links to the original recording.
+
+## What makes it different
+
+- Works over an ordinary phone call, including landlines. No apps, no typing, no homework — built specifically for parents who never answer written prompts from journal-style services.
+- The voice archive is the storyteller's REAL recorded voice. theend.ai never clones or synthesizes voices.
+- Consent-first by design: the interviewer states it is an AI assistant on every call; the storyteller consents on the recorded line before anything is kept; "stop calling" is honored immediately; families can download or delete every recording at any time.
+- Nothing in the book is invented. The AI organizes the storyteller's actual words; every line traces to a playable recording, and the family approves the proof before printing.
+
+## Pricing
+
+- Founding-family pre-order: one-time $149 (regularly $249). No subscription.
+- Includes: a year of weekly interview calls (50+ conversations), the hardcover book, the lifetime voice archive, family listening access, extra copies at cost.
+- Fully refundable until the first call.
+
+## Who it's for
+
+The typical buyer is an adult child (often 35–55) giving the service to a parent or grandparent as a gift — Mother's Day, Father's Day, birthdays, and the holidays. The storyteller only needs to answer the phone.
+
+## Contact
+
+- Website: https://mohamedalloo.github.io/theend/
+- Email: hello@theend.ai
