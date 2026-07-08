@@ -380,14 +380,27 @@
 <script>
   document.getElementById('waitlistForm').addEventListener('submit', function (e) {
     e.preventDefault();
+    var form = this;
     var email = document.getElementById('waitlistEmail').value;
-    // TODO: replace with a real endpoint (Formspree/Loops/ConvertKit) before launch.
+    // Keep a local copy as a backstop.
     try {
       var list = JSON.parse(localStorage.getItem('theend_waitlist') || '[]');
       list.push({ email: email, at: new Date().toISOString() });
       localStorage.setItem('theend_waitlist', JSON.stringify(list));
     } catch (err) {}
-    this.style.display = 'none';
+    // Relay to inbox via FormSubmit (no-signup form-to-email).
+    fetch('https://formsubmit.co/ajax/alloo.mohamed@gmail.com', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        email: email,
+        source: 'theend.ai founding waitlist',
+        signed_up_at: new Date().toISOString(),
+        _subject: 'New theend.ai founding-family reservation',
+        _template: 'table'
+      })
+    }).catch(function () {});
+    form.style.display = 'none';
     document.getElementById('thanksMsg').style.display = 'block';
   });
 </script>
